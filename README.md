@@ -19,3 +19,10 @@ Welcome to my personal portfolio website.
 - Images and multimedia
 - Contact form
 - Responsive design
+## About My Portfolio
+
+This portfolio is created as part of my Web Technologies assignment.
+
+It contains four pages: Home, Hobbies, Media, and Contact.
+
+The website is developed using HTML5 and CSS3.
