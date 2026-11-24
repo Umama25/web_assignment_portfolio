@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Contact details, location map and contact form.">
+  <meta name="author" content="Umama Bashir">
+  <meta name="keywords" content="portfolio, HTML, CSS, student, web programming">
+  <title>Contact | Umama Bashir Portfolio</title>
+  <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <div class="header-inner">
+      <p class="logo">Umama Bashir| Portfolio</p>
+      <nav aria-label="Main navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="hobbies.html">Hobbies</a></li>
+          <li><a href="media.html">Favourite Media</a></li>
+          <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section>
+      <h1>Contact Me</h1>
+      <table>
+        <caption>My Details</caption>
+        <tbody>
+          <tr><th scope="row">Name</th><td>Umama Bashir</td></tr>
+          <tr><th scope="row">Designation</th><td>BS(CS) Student, 6th Semester</td></tr>
+          <tr><th scope="row">Email</th><td><a href="mailto:umamabashir25@gmail.com">umamabashir25@gmail.com</a></td></tr>
+          <tr><th scope="row">Phone</th><td>+92 315 5482714</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="map">
+      <h2>Find Me on the Map</h2>
+      <iframe src="https://www.google.com/maps?q=Iqra+University+Islamabad+Campus+H-9&amp;output=embed" title="Google Map of Iqra University Islamabad Campus" loading="lazy" allowfullscreen></iframe>
+    </section>
+
+    <section>
+      <h2>My Friends</h2>
+      <div class="table-wrap">
+        <table>
+          <caption>Friends' Names and IDs</caption>
+          <thead>
+            <tr><th scope="col">Name</th><th scope="col">ID</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>Sana</td><td>12345</td></tr>
+            <tr><td>Sara</td><td>12346</td></tr>
+            <tr><td>Sania</td><td>12347</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section>
+      <h2>Send a Message</h2>
+      <form action="#" method="post">
+        <div>
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div>
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div>
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+        </div>
+        <div><button type="submit">Send Message</button></div>
+      </form>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2026 Umama Bashir | BS(CS) 6th Semester | Iqra University, Islamabad Campus</p>
+  </footer>
+</body>
+</html>
