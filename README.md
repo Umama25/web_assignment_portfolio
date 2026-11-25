@@ -1,5 +1,5 @@
 
-# My Web Technologies Portfolio
+# My Web Engineering Portfolio
 
 Welcome to my personal portfolio website.
 
@@ -21,7 +21,7 @@ Welcome to my personal portfolio website.
 - Responsive design
 ## About My Portfolio
 
-This portfolio is created as part of my Web Technologies assignment.
+This portfolio is created as part of my Web Engineering assignment.
 
 It contains four pages: Home, Hobbies, Media, and Contact.
 
